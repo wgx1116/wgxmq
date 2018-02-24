@@ -1,0 +1,27 @@
+{
+    "name": "wgx/wgxmq",
+    "description": "php simulate message queue library",
+    "type": "library",
+    "license": "reserve",
+    "authors": [
+        {
+            "name": "wangguoxin",
+            "email": "1015838747@qq.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "WgxMq\\": ""
+        }
+    },
+    "require": {
+        "mashape/unirest-php": "^3.0",
+        "wgx/wgxpdoex": "dev-master"
+    },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "/var/GitRepo/wgxpdoex.git"
+        }
+    ]
+}
